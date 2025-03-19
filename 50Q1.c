@@ -343,6 +343,8 @@ int contaPal(char s[]) {
     return cont; 
 } 
 
+// ex21
+
 int contaVogais(char s[]) {
     char vogais[] = "aeiouAEIOU";
     int i, j;
