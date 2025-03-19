@@ -2,7 +2,7 @@
 
 /*
 Notas:
-- verificar :10
+- verificar :10,26
 - importantes: 13,16
 
 
@@ -329,12 +329,10 @@ int contaPal(char s[]) {
     int dentroDaPalavra = 0; // vai funcionar como flag indicar se estamos dentro de uma palavra
 
     for (i = 0; s[i] != '\0'; i++) {
-        if (s[i] != ' ' && !dentroDaPalavra) { // verifica se não estamos dentro de uma palavra (dentroDaPalavra == 0).
-// Isso significa que o caractere atual é o início de uma nova palavra.
+        if (s[i] != ' ' && !dentroDaPalavra) { 
             cont++; 
             dentroDaPalavra = 1; 
         }
-        // se o caractere atual for um espaço, marca que não estamos mais dentro de uma palavra
         else if (s[i] == ' ') {
             dentroDaPalavra = 0;
         }
@@ -342,6 +340,13 @@ int contaPal(char s[]) {
 
     return cont; 
 } 
+
+/*
+-> o ' ' indica se estou dentro de uma palavra ou não, se s[i]= ' ' então não estou dentro de uma palavra
+-> se s[i] não é um ' ' e estamos dentro de uma palavra, então aumentamos o contador que conta o número de palavras
+
+nota: podemos colocar no (!dentroDaPalavrs)==1, na próxima iteração já não entra nesse if pois (!1) é 0 
+*/
 
 // ex21
 
@@ -361,6 +366,204 @@ int contaVogais(char s[]) {
 }
 
 
+// ex22
+
+// verifica se o caracter de da string a existe na string b
+int charCont(char c, char z[]) {
+    int i;
+    for (i = 0; z[i] != '\0'; i++) {
+        if (c == z[i]) {
+            return 1; 
+        }
+    }
+    return 0; 
+}
+
+// função que verifica todos os caracteres
+int contida(char a[], char b[]) {
+    int i;
+    for (i = 0; a[i] != '\0'; i++) {
+        if (charCont(a[i], b) == 0) {
+            return 0; 
+        }
+    }
+    return 1; 
+}
+
+/*
+sem dois returns:
+
+// função que verifica todos os caracteres
+int contida(char a[], char b[]) {
+    int i;
+    int contido = 1; // Assume que todos os caracteres estão contidos
+
+    for (i = 0; a[i] != '\0' && contido == 1; i++) {
+        if (charCont(a[i], b) == 0) {
+            contido = 0; // Se algum caractere não estiver em b, marca como falso
+        }
+    }
+
+    return contido; // Retorna o resultado
+}
+
+*/
+
+// ex23
+
+int palindromo(char s[]) {
+    int i, j;
+    int igual = 1; // assume que a string é um palíndromo
+    int tam = strlen(s); 
+
+    for (i = 0, j = tam - 1; i < j && igual == 1; i++, j--) {
+        if (s[i] != s[j]) {
+            igual = 0; 
+        }
+    }
+
+    return igual; 
+}
+
+// ex24
+
+int remRep (char x[]){
+    int i,j=0;
+    for(i=0;x[i]!='\0';i++){
+        while(x[i]==x[i+1]){
+            for(j=i;x[j]!='\0';j++){
+                x[j]=x[j+1];
+            }
+        }
+    } 
+    x[j] = '\0'; 
+    return j;
+}  
+
+// ex25
+
+int limpaEspacos(char t[]) {
+    int i, j = 0;
+
+
+    for (i = 0; t[i] != '\0'; i++) {
+        // se o caractere atual for um espaço e o próximo também for um espaço, não copia
+        if (t[i] == ' ' && t[i + 1] == ' ') {
+        } else {
+            t[j] = t[i]; 
+            j++; 
+        }
+    }
+
+    t[j] = '\0';
+    return j; 
+}
+
+// ex26
+
+// ex27
+
+void merge (int r [], int a[], int b[], int na, int nb){
+    int i=0;
+    int j=0;
+    int k = 0;
+    while (i < na && j <nb){
+        if (a[i] < b[j]){
+            r[k++]=a[i++];
+        } else {
+            r[k++]=b[j++];
+        }
+    }
+    
+    while (i < na){
+        r[k++]=a[i++];
+    }
+
+    while (j < nb){
+        r[k++]=b[j++];
+    }
+}
+
+
+/*
+int main() {
+    int a[] = {1, 3, 5, 7}; // Vetor a
+    int na = 4; // Tamanho de a
+
+    int b[] = {2, 4, 6, 8, 10}; // Vetor b
+    int nb = 5; // Tamanho de b
+
+    int r[na + nb]; // Vetor resultante
+
+    // Chama a função merge
+    merge(r, a, b, na, nb);
+
+    // Imprime o vetor resultante
+    printf("Vetor resultante (merge de a e b): ");
+    for (int i = 0; i < na + nb; i++) {
+        printf("%d ", r[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+*/
+
+// ex28 
+
+int crescente(int a[], int i, int j) {
+    int x;
+    int res = 1;
+    for (x = i; x < j && res == 1; x++) {
+        if (a[x] > a[x + 1]) {
+            res = 0; 
+        }
+    }
+    return res; 
+}
+
+// ex29
+
+int retiraNeg(int v[], int N) {
+    int i, j = 0; 
+
+    for (i = 0; i < N; i++) {
+        if (v[i] >= 0) {
+            v[j] = v[i];
+            j++; 
+        }
+    }
+
+
+    return j;
+}
+
+// ex30
+
+int freqInt(int n, int v[],int N){
+    int i;
+    int freq=0;
+    for(i=0; i < N ;i++){
+        if (v[i] == n) freq ++;
+    }
+    return freq;
+}
+
+
+int menosFreq (int v[], int N){
+    int i;
+    int menosFreq;
+    int freqMin=N;
+    int freqAtual;
+    for(i=0; i < N ; i++){
+        if((freqAtual=freqInt(v[i],v,N)) < freqMin){
+            freqMin= freqAtual;
+            menosFreq = v[i];
+
+        } 
+    }
+    return menosFreq;
+}
 
 
 
