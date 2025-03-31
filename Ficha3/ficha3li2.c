@@ -110,7 +110,7 @@ double calcularMedias(Tabela tabela[], int totalValores, int numGrupos, int grup
         for (int i = 0; i < totalValores; i++) {
             if (tabela[i].grp == g) {
                 somaOrdRelGrupos[g] += tabela[i].ordRel;
-                cont++;
+                cont++; // não era necessário, grupos[g] já faz isso??
             }
         }
         printf(" %4d    %7.1f\n", g, somaOrdRelGrupos[g] / grupos[g]);  
