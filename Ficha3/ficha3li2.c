@@ -45,8 +45,8 @@ int lerDados(Tabela tabela[], int grupos[], int *totalValores, int *numGrupos) {
 }
 
 void ordenarTabela(Tabela tabela[], int totalValores) {
-    for (int i = 0; i < totalValores-1; i++) {
-        for (int j = 0; j < totalValores-i-1; j++) {
+    for (int i = 0; i < totalValores-1; i++) { // controla o número de iterações
+        for (int j = 0; j < totalValores-i-1; j++) { // percorrer o array para ir ordenando
             if (tabela[j].val > tabela[j+1].val) {
                 Tabela temp = tabela[j];
                 tabela[j] = tabela[j+1];
