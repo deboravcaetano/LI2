@@ -65,7 +65,7 @@ void calcularTabela(Tabela tabela[], int totalValores) {
         tabela[i].ord = i + 1;  // ordem (sempre pos + 1) 
         
         int j = i;
-        while (j > 0 && tabela[j-1].val == tabela[i].val) {
+        while (j > 0 && tabela[j-1].val == tabela[i].val) { // verifica se o val na posição i já apareceu nas posições anteriores
             j--; // retrocede até ao val que é igual e aparece primeiro
         }
         tabela[i].prm = j;
