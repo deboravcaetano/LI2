@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 
 #define MAX_VALORES 10000
@@ -43,6 +42,7 @@ int lerDados(Tabela tabela[], int grupos[], int *totalValores, int *numGrupos) {
     }
     return 1;
 }
+
 
 void ordenarTabela(Tabela tabela[], int totalValores) {
     for (int i = 0; i < totalValores-1; i++) { // controla o número de iterações
