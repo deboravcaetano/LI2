@@ -1,0 +1,19 @@
+//////////////////////////////////////////////////////////////////////////////// PROJETOLI2 //////////////////////////////////////////////////////////////////////////////////////////////// 
+
+
+pmccabe
+sscanf - lê não do standard input mas de uma string
+fgets
+fprintf (printf redirecionado para uma string) 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Usar apontadores para funções:
+Cada letra é associada a um comando, vai invocar uma função que faz o que é esperado.
+Podemos fazer um array de apontadores para o código, exemplo: g -> gravar(..conjunto de parametros..) e especificamos no array, precisamente que função invocar
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ou, de outra forma:
+escrevemos um conjunto de chamada de funções com o mesmo 'char c' que vem do 'sscanf' e no fundo o que faz é executar apenas uma delas de acordo com o 'char c', ou seja, por exemplo:
+x = ler (c,..);
+x = gravar (c,..);
+x = colocar (c,..);
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
