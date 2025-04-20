@@ -253,6 +253,7 @@ int existeCaminho(CasoTeste *caso) {
 
 // Liberta a memória de um caso de teste
 void libertarMemoriaCaso(CasoTeste *caso) {
+    // Em vez de escrever caso->dados.campo escrevemos infoP->campo
     INFO infoP = &caso->dados;
     
     free(infoP->triplosM);
