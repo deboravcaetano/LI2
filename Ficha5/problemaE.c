@@ -280,6 +280,7 @@ void processarTodosCasos(CasoTeste *casos, int nCasos) {
     for (int i = 0; i < nCasos; i++) {
         casos[i].resultado = existeCaminho(&casos[i]);
         printf("Caso %d\n", i + 1);
+        // Se é válido
         if (casos[i].resultado) {
             printf("SIM\n");
         } else {
