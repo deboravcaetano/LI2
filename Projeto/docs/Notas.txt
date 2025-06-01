@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////////////////// PROJETOLI2 //////////////////////////////////////////////////////////////////////////////////////////////// 
+
+Links Úteis:
+
+Tarefa 1:
+
+https://www.tutorialspoint.com/c_standard_library/c_function_sscanf.htm
+
+https://www.tutorialspoint.com/c_standard_library/c_function_fprintf.htm
+
+NOTA: para trabalhar com files tem de se usar fopen (path, "w") e fclose (path)
+
+Tarefa 2:
+
+https://stackoverflow.com/questions/4431920/how-to-implement-undo-functionality
+
+https://www.reddit.com/r/learnprogramming/comments/y4woc3/how_does_undo_work_in_programs/
+
+https://stackoverflow.com/questions/60713331/undo-and-redo-on-struct-arrays-in-c
+
+https://www.youtube.com/watch?v=vqRHjhaECv4
