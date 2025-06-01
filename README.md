@@ -1,6 +1,7 @@
-𝗢𝗕𝗝𝗘𝗧𝗜𝗩𝗢: construir um programa que permita a um utilizador resolver um puzzle. 
+ 
+![image](https://github.com/user-attachments/assets/4c765337-68c5-422f-aece-218cfa5fab8f)
 
-
+𝗢𝗕𝗝𝗘𝗧𝗜𝗩𝗢: construir um programa que permita a um utilizador resolver um puzzle.
 
 As 𝘳𝘦𝘨𝘳𝘢𝘴 desse puzzle são as seguintes:
 
