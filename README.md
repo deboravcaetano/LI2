@@ -8,7 +8,7 @@ As 𝘳𝘦𝘨𝘳𝘢𝘴 desse puzzle são as seguintes:
 
 ![image](https://github.com/user-attachments/assets/cea93f96-b3ac-48e6-9ff1-58f917f41734)
 
-Tendo disponível estes 𝘤𝘰𝘮𝘢𝘯𝘥𝘰𝘴:
+Tendo disponível para utilizar estes 𝘤𝘰𝘮𝘢𝘯𝘥𝘰𝘴:
 
 ![image](https://github.com/user-attachments/assets/53fcda89-6839-4555-b8b3-23b1bc5a8e10)
 
@@ -21,7 +21,7 @@ E a sua respetiva 𝘴𝘰𝘭𝘶𝘤̧𝘢̃𝘰:
 
 ## Executar
 
-Para executar o programa utilizas os seguintes comandos:
+Para executar o programa utilizar os seguintes comandos:
 ```bash
 make jogo
 ```
@@ -44,8 +44,7 @@ make testar
 
 ## Documentação
 
-Para aceder ao ficheiro gerado da documentação 
-basta baixares o ficheiro https://github.com/deboravcaetano/LI2/blob/aa6cbd23c1d61d4543fcad66d43f68fe29e4ed43/Projeto/docs/docs/html/index.html e abrires.
+Para aceder à documentação basta baixares [index.html](https://github.com/deboravcaetano/LI2/blob/aa6cbd23c1d61d4543fcad66d43f68fe29e4ed43/Projeto/docs/docs/html/index.html) e abrir.
 
 ## Made by
 
