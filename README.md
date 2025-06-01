@@ -45,7 +45,7 @@ make testar
 ## Documentação
 
 Para aceder ao ficheiro gerado da documentação 
-basta baixares o ficheiro [index.html em Projeto/docs/docs/html.](https://github.com/deboravcaetano/LI2/blob/8e3d65bc0fb74e7720a3246f7ecdf12c222ede4e/Projeto/docs/docs/html/index.html) e abrires.
+basta baixares o ficheiro https://github.com/deboravcaetano/LI2/blob/aa6cbd23c1d61d4543fcad66d43f68fe29e4ed43/Projeto/docs/docs/html/index.html e abrires.
 
 ## Made by
 
