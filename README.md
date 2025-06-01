@@ -49,8 +49,10 @@ basta baixares o ficheiro https://github.com/deboravcaetano/LI2/blob/aa6cbd23c1d
 
 ## Made by
 
-Débora Luana Pinto Caetano   
+Débora Luana Pinto Caetano 
+
 Marcos Bernardo da Silva Lobo 
+
 Maria Inês da Cruz Machado 
 
 
