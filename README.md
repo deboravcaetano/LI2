@@ -1,7 +1,7 @@
  
 ![image](https://github.com/user-attachments/assets/4c765337-68c5-422f-aece-218cfa5fab8f)
 
-𝗢𝗕𝗝𝗘𝗧𝗜𝗩𝗢: construir um programa que permita a um utilizador resolver um puzzle.
+# 𝗢𝗕𝗝𝗘𝗧𝗜𝗩𝗢: construir um programa que permita ao utilizador resolver um puzzle.
 
 As 𝘳𝘦𝘨𝘳𝘢𝘴 desse puzzle são as seguintes:
 
@@ -17,6 +17,34 @@ A servir de exemplo temos o seguinte estado inicial de um tabuleiro:
 E a sua respetiva 𝘴𝘰𝘭𝘶𝘤̧𝘢̃𝘰:
 
 ![image](https://github.com/user-attachments/assets/ec01ace5-40b3-4126-b817-4d5b43ac9530)
+
+## Executar
+
+Para executar o programa utilizas os seguintes comandos:
+```bash
+make jogo
+```
+
+```bash
+./jogo
+```
+
+## Testes
+
+O projeto utiliza a biblioteca CUnit para realizar os testes às funções.
+
+```bash
+make testar
+```
+
+```bash
+./testar
+```
+
+## Documentação
+
+Para aceder ao ficheiro gerado da documentação 
+basta baixares o ficheiro index.html em Projeto/docs/docs/html.
 
 
 
