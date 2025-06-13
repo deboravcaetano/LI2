@@ -1,23 +1,26 @@
- 
-![image](https://github.com/user-attachments/assets/4c765337-68c5-422f-aece-218cfa5fab8f)
+# Projeto realizado em Laboratórios de Informática II
 
-# 𝗢𝗕𝗝𝗘𝗧𝗜𝗩𝗢: 
-construir um programa que permita ao utilizador resolver um puzzle.
+O jogo consiste em resolver um puzzle inspirado no quebra-cabeça lógico japonês Hitori.
 
-As 𝘳𝘦𝘨𝘳𝘢𝘴 desse puzzle são as seguintes:
+Nota Final: ?/20
 
-![image](https://github.com/user-attachments/assets/cea93f96-b3ac-48e6-9ff1-58f917f41734)
+## Funcionalidades
 
-Tendo disponível para utilizar estes 𝘤𝘰𝘮𝘢𝘯𝘥𝘰𝘴:
+- Undo
+- Pintar uma casa
+- Riscar uma casa
+- Voltar a minúscula
+- Verificar estado
+- Aplicar regras
+- Resolver puzzle
 
-![image](https://github.com/user-attachments/assets/53fcda89-6839-4555-b8b3-23b1bc5a8e10)
+## Imagens
 
-A servir de exemplo temos o seguinte estado inicial de um tabuleiro:
-
-![image](https://github.com/user-attachments/assets/df5e09c6-dac9-452c-927a-2614b7f22155)
-E a sua respetiva 𝘴𝘰𝘭𝘶𝘤̧𝘢̃𝘰:
-
-![image](https://github.com/user-attachments/assets/ec01ace5-40b3-4126-b817-4d5b43ac9530)
+![image](https://github.com/user-attachments/assets/68ebe213-e4c2-48ff-a75a-c8e7a8714c25)
+![image](https://github.com/user-attachments/assets/97dea57d-a9fe-4e9f-98c0-eac11a6a6602)
+![image](https://github.com/user-attachments/assets/fdb36ad3-5965-4333-80db-0eed7aba918d)
+![image](https://github.com/user-attachments/assets/ef502897-8676-4584-899e-57b9e2568a96)
+![image](https://github.com/user-attachments/assets/dd46ad99-2e6f-4c88-8dbc-891b23d353d4)
 
 ## Executar
 
@@ -44,7 +47,7 @@ make testar
 
 ## Documentação
 
-Para aceder à documentação basta baixares [index.html](https://github.com/deboravcaetano/LI2/blob/aa6cbd23c1d61d4543fcad66d43f68fe29e4ed43/Projeto/docs/docs/html/index.html) e abrir.
+Para aceder à documentação basta aceder a [index.html](https://github.com/deboravcaetano/LI2/blob/aa6cbd23c1d61d4543fcad66d43f68fe29e4ed43/Projeto/docs/docs/html/index.html).
 
 ## Made by
 
