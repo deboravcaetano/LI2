@@ -2,7 +2,7 @@
 
 O jogo consiste em resolver um puzzle inspirado no quebra-cabeça lógico japonês Hitori.
 
-Nota Final: ?/20
+Nota Final: 19.4/20 :star:
 
 ## Funcionalidades
 
