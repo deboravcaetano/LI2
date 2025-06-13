@@ -1,18 +1,22 @@
 # Projeto realizado em Laboratórios de Informática II
 
-O jogo consiste em resolver um puzzle inspirado no quebra-cabeça lógico japonês Hitori.
+O jogo consiste em resolver um puzzle inspirado no quebra-cabeça lógico japonês **Hitori**.
 
-Nota Final: 19.4/20 :star:
+Nota Final: 19.4 / 20 :star:
 
-## Funcionalidades
+## Jogadas
 
-- Undo
 - Pintar uma casa
 - Riscar uma casa
 - Voltar a minúscula
+
+## Outros comandos
+
+- Undo
 - Verificar estado
 - Aplicar regras
 - Resolver puzzle
+- Salvar jogo
 
 ## Imagens
 
