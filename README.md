@@ -2,7 +2,7 @@
 
 This project features an implementation of **Hitori**, a Japanese logic puzzle game.
 
-Final Grade: 19.4 / 20 :star:
+Final Grade: 19 / 20 :star:
 
 ## Actions
 
