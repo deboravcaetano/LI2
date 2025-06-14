@@ -54,9 +54,9 @@ Para aceder à documentação basta aceder a [index.html](https://github.com/deb
 
 ## Made by
 
--Débora Luana Pinto Caetano    (a112332)
--Marcos Bernardo da Silva Lobo (a110959) 
--Maria Inês da Cruz Machado    (a111464) 
+- Débora Luana Pinto Caetano    (a112332)
+- Marcos Bernardo da Silva Lobo (a110959)
+- Maria Inês da Cruz Machado    (a111464)
 
 
 
