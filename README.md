@@ -19,6 +19,10 @@ Final Grade: 19.4 / 20 :star:
 - Save game
 - Clear screen
 
+## Details
+
+See all the details at [Projeto.pdf](https://github.com/deboravcaetano/LI2/blob/7bf57eca50cba7da7be94592d300f24af97411ff/Projeto/docs/pdf/Projeto.pdf) in Portuguese.
+
 ## Images
 
 ![image](https://github.com/user-attachments/assets/68ebe213-e4c2-48ff-a75a-c8e7a8714c25)
